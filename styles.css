@@ -7,7 +7,7 @@
 }
 
 :root {
-  --dark-grey: #1b1b32;
+  --light-green: #1b8492;
   --light-grey: #f5f6f7;
   --golden-yellow: #fecc4c;
   --yellow: #ffcc4c;
@@ -17,7 +17,7 @@
 }
 
 body {
-  background-color: var(--dark-grey);
+  background-color: var(--light-green);
   color: var(--light-grey);
 }
 
@@ -59,7 +59,7 @@ textarea {
   cursor: pointer;
   width: 200px;
   margin: 10px auto;
-  color: var(--dark-grey);
+  color: var(--light-green);
   background-color: var(--gold);
   background-image: linear-gradient(var(--golden-yellow), var(--orange));
   border-color: var(--gold);
@@ -75,6 +75,3 @@ textarea {
   margin: 20px 0;
 }
 
-.footer {
-  margin-top: 10px;
-}
