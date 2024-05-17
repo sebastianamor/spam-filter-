@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Learn Regular Expressions by Building a Spam Filter</title>
+    <title>Spam Filter</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header class="main-text">
-      <h1 class="title">Is this Spam?</h1>
+      <h1 class="title">これはスパムですか?</h1>
       <p class="description">
-        Enter a phrase to check if it would be marked as spam or not.
+        フレーズを入力して、スパムとしてマークされるかどうかを確認します。
       </p>
     </header>
 
     <main>
-      <label class="message-label" for="message-input">Message: </label>
+      <label class="message-label" for="message-input">メッセージ: </label>
       <textarea
-        placeholder="Enter message here"
+        placeholder="ここにメッセージを入力"
         value=""
         type="text"
         name="message"
@@ -27,7 +27,7 @@
         cols="40"
       ></textarea>
       <button class="btn" id="check-message-btn" type="button">
-        Check message
+        メッセージの確認
       </button>
       <p id="result"></p>
     </main>
